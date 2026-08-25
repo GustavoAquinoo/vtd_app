@@ -1,1 +1,12 @@
+[theme]
+ # Para botones, sliders y acentos
+ primaryColor = "#06369D"
 
+ # Color de fondo general de la aplicación
+ backgroundColor = "#FFFFFF"
+
+ # Para la barra lateral (sidebar) y fondos secundarios
+ secondaryBackgroundColor = "#F2F2F2"
+
+ # Color del texto
+ textColor = "#31333F"
