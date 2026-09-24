@@ -1293,13 +1293,13 @@ with tab_vpn:
         archivos_manuales = []
  
         with col_m1:
-            st.markdown("##### 📂 VTD Manual 1")
+            st.markdown("##### 📂 VTD 1")
             archivo_vtd1 = st.file_uploader("VTD 1 (Periodo, VTDA)", type=["xlsx", "xls"], key="up_vtd1")
             if archivo_vtd1:
                 archivos_manuales.append(("Manual 1", archivo_vtd1))
  
         with col_m2:
-            st.markdown("##### 📂 VTD Manual 2")
+            st.markdown("##### 📂 VTD 2")
             vtd2_act = st.checkbox("Habilitar VTD 2", value=False, key="vtd2_act")
             if vtd2_act:
                 archivo_vtd2 = st.file_uploader("VTD 2 (Periodo, VTDA)", type=["xlsx", "xls"], key="up_vtd2")
@@ -1307,7 +1307,7 @@ with tab_vpn:
                     archivos_manuales.append(("Manual 2", archivo_vtd2))
  
         with col_m3:
-            st.markdown("##### 📂 VTD Manual 3")
+            st.markdown("##### 📂 VTD 3")
             vtd3_act = st.checkbox("Habilitar VTD 3", value=False, key="vtd3_act")
             if vtd3_act:
                 archivo_vtd3 = st.file_uploader("VTD 3 (Periodo, VTDA)", type=["xlsx", "xls"], key="up_vtd3")
